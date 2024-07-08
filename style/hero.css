@@ -1,3 +1,102 @@
-p{
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root{
+    --color1: rgba(7, 2, 17, 100%);
+    --color2: #FF0000;
+    --color3: #FFFFFF;
+    --font1: "Inter", sans-serif;
+    --font2: "Merriweather", serif;
+    --fontWeight1: 400;
+    --fontWeight2: 500;
+    --fontWeight3: 700;
+    --fontWeight4: 900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* hero section */
+.hero{
+
+    height: 60vh;
+    width: 68.75vw;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("/images/Banner\ Image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero .hero-tittle-one{
+    font-family: var(--font2);
+    font-size: 2rem;
+    color: var(--color3);
+    font-weight: var(--fontWeight1);
+    margin: 16px auto;
+}
+
+.hero .hero-tittle-two{
+    font-family: var(--font2);
+    font-size: 4.5rem;
+    color: var(--color3);
+    font-weight: var(--fontWeight4);
+    text-align: center;
+}
+
+/* discount section */
+.discount{
+    width: 41.818vw;
+    height: 80.6vh;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.discount .discount-bottom{
+    width: 100%;
+    height: 65%;
+    background-image: url("/images/New\ Year\ Photo.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px dashed rgba(107, 106, 106, 0.705);
+}
+
+.discount .discount-top{
+    width: 100%;
+    height: 35%;
+}
+
+.discount .discount-top .discount-tittle-one{
+    font-family: var(--font1);
+    font-weight: var(--fontWeight3);
+    font-size: 5.5rem;
+    color: var(--color2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.discount .discount-top .discount-tittle-two{
+    font-size: 1.5rem;
+    color: var(--color2);
+    font-weight: var(--fontWeight2);
+    font-family: var(--font1);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.discount .discount-top .discount-tittle-three{
+    font-size: 3rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight3);
+    text-align: center;
 }
