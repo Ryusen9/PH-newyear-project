@@ -56,7 +56,7 @@
 .discount{
     width: 41.818vw;
     height: 80.6vh;
-    margin: 15px auto;
+    margin: 90px auto;
     display: flex;
     flex-direction: column;
 }
@@ -68,7 +68,6 @@
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px dashed rgba(107, 106, 106, 0.705);
 }
 
 .discount .discount-top{

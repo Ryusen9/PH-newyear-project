@@ -1,0 +1,81 @@
+.party-card{
+    width: 68.75vw;
+    height: 60vh;
+    margin: 60px auto;
+    border-radius: 16px;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("/images/Vectorrr.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.party-card .party-card-left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.party-card-left .party-card-tittle{
+    font-size: 4rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight3);
+    color: var(--color3);
+    margin-bottom: 24px;
+}
+
+.party-card-left .party-card-text{
+    font-size: 1.125rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight1);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0 0 0 150px;
+}
+
+.party-card-left .party-card-join a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: var(--color3);
+    font-family: var(--font1);
+    font-weight: var(--fontWeight3);
+    text-transform: uppercase;
+    padding: 20px 10px 10px 10px;
+    position: relative;
+    top: 50px;
+    right: 200px;
+    overflow: hidden;
+}
+
+.party-card-left .party-card-join a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    bottom: 1px;
+    background-color: var(--color3);
+    scale: 0 1;
+    transition: all 240ms ease-in-out;
+}
+
+.party-card-left .party-card-join a:hover::after{
+    scale: 1 1;
+}
+
+.party-card .party-card-right{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.party-card .party-card-right img{
+    width: 60%;
+    height: 70%;
+}
