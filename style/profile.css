@@ -1,0 +1,73 @@
+.card-profile{
+    width: 68.75vw;
+    height: 46.3vh;
+    margin: 50px auto 70px;
+    display: flex;
+}
+
+.card-profile .card-profile-left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-profile .card-profile-left .profile-tittle-one p{
+    font-size: 1.5rem;
+    font-weight: var(--fontWeight2);
+    font-family: var(--font1);
+    color: var(--color2);   
+}
+
+.card-profile .card-profile-left .profile-tittle-two p{
+    font-size: 3rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight3);
+}
+
+.card-profile .card-profile-left .profile-description p{
+    font-size: 1.25rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight2);
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.card-profile .class-profile-mid{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-profile .class-profile-mid .profile-image{
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.card-profile .class-profile-right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+.card-profile .class-profile-right .right-tittle p{
+    font-size: 3rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight3);
+    color: var(--color2);
+}
+
+.card-profile .class-profile-right .right-description{
+    font-size: 1.25rem;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: var(--font1);
+    font-weight: var(--fontWeight2);
+}
