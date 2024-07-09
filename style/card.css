@@ -121,3 +121,55 @@
     outline: none;
     margin-top: 15px;
 }
+
+/* card3 starts here */
+
+.card3{
+    position: relative;
+    width: 68.75vw;
+    height: 98.607vh;
+    margin: 40px auto 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card3 .card3-tittle1 p{
+    font-size: 1.5rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight2);
+    margin-bottom: 10px;
+}
+
+.card3 .card3-tittle2 p{
+    font-size: 4.5rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight4);
+    margin-bottom: 40px;
+}
+
+.card3 .card3-tittle3 p{
+    font-family: var(--font1);
+    font-size: 1.25rem;
+    font-weight: var(--fontWeight2);
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+}
+
+.card3 .pic1{
+    position: absolute;
+    right: 49.48px;
+    bottom: 288.55px;
+}
+
+.card3 .pic2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.card3 .pic3{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
