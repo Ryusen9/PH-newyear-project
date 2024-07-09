@@ -23,14 +23,13 @@
 
     height: 60vh;
     width: 68.75vw;
-    border: 2px solid black;
     border-radius: 16px;
     margin: 30px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("/images/Banner\ Image.png");
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("images/Banner\ Image.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
