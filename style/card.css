@@ -79,3 +79,45 @@
     width: 60%;
     height: 70%;
 }
+
+.venue{
+    width: 68.75vw;
+    height: 48.2vh;
+    margin: 70px auto 70px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.venue .venue-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.venue .venue-text p{
+    font-weight: 600;
+    font-family: var(--font1);
+    font-size: 2rem;
+}
+
+.venue .venue-text p span{
+    color: var(--color2);
+}
+
+.venue button{
+    padding: 15px 32px;
+    font-size: 1.25rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight3);
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
