@@ -1,0 +1,39 @@
+.portfolio-section{
+    width: 68.75vw;
+    height: 116.3vh;
+    margin: 30px auto 70px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.portfolio-section .portfolio-tittle1 p{
+    font-size: 1.5rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight2);
+    color: var(--color2);
+    margin-bottom: 15px;
+}
+
+.portfolio-section .portfolio-tittle2 p{
+    font-size: 3rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight4);
+    margin-bottom: 17px;
+}
+
+.portfolio-section .portfolio-description p{
+    font-size: 1.25rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight1);
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 50px;
+}
+
+.portfolio-section .postfolio-imgages{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
