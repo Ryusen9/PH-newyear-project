@@ -63,7 +63,7 @@
 .discount .discount-bottom{
     width: 100%;
     height: 65%;
-    background-image: url("/images/New\ Year\ Photo.png");
+    background-image: url("../images/New\ Year\ Photo.png");
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
