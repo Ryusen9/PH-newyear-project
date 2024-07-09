@@ -37,3 +37,54 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 30px;
 }
+
+/* subscribe section */
+
+.subscribe{
+    width: 68.75vw;
+    height: 61.6vh;
+    margin: 50px auto 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe .subscribe-tittle1{
+    font-size: 3rem;
+    font-family: var(--font2);
+    font-weight: var(--fontWeight4);
+}
+
+.subscribe .subscribe-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 1.25rem;
+    text-align: center;
+    font-family: var(--font1);
+}
+
+.subscribe .subscribe-input input{
+    font-size: 1.125rem;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight1);
+    min-width: 477px;
+    padding: 25px 30px;
+    border: none;
+    border-radius: 50px 0 0 50px ;
+
+}
+
+.subscribe .subscribe-input button{
+    font-size: 1.125rem;
+    width: 210px;
+    padding: 25px 30px;
+    font-family: var(--font1);
+    font-weight: var(--fontWeight1);
+    border: none;
+    background: var(--color2);
+    color: #ffffff;
+    border-radius: 0 50px 50px 0 ;
+}
